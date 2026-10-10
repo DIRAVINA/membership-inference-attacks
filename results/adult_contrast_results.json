@@ -1,0 +1,11 @@
+{
+  "dataset": "UCI Adult Census",
+  "num_classes": 2,
+  "target_train_acc": 0.822,
+  "target_test_acc": 0.7985,
+  "generalization_gap": 0.023499999999999965,
+  "attack_precision": 0.5066542865985763,
+  "attack_recall": 0.8185,
+  "attack_accuracy": 0.51075,
+  "attack_roc_auc": 0.519544375
+}

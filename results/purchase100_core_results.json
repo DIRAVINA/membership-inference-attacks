@@ -1,0 +1,34 @@
+{
+  "target_model_stats": {
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.6503333333333333,
+    "generalization_gap": 0.3496666666666667
+  },
+  "shadow_attack": {
+    "accuracy": 0.8445,
+    "precision": 0.7629102009666752,
+    "recall": 0.9996666666666667,
+    "f1": 0.8653873899870148,
+    "roc_auc": 0.9129311111111112,
+    "tpr_at_1%_fpr": 0.10633333333333334,
+    "tpr_at_0.1%_fpr": 0.021
+  },
+  "baseline_confidence_attack": {
+    "accuracy": 0.738,
+    "precision": 0.6561679790026247,
+    "recall": 1.0,
+    "f1": 0.7923930269413629,
+    "roc_auc": 0.9247013333333333,
+    "tpr_at_1%_fpr": 0.03,
+    "tpr_at_0.1%_fpr": 0.004666666666666667
+  },
+  "baseline_entropy_attack": {
+    "accuracy": 0.5073333333333333,
+    "precision": 0.503693754197448,
+    "recall": 1.0,
+    "f1": 0.6699419383653417,
+    "roc_auc": 0.9177051666666667,
+    "tpr_at_1%_fpr": 0.031,
+    "tpr_at_0.1%_fpr": 0.005
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "Defense":"No Mitigation",
+    "Testing Accuracy":0.648,
+    "Attack Total Accuracy":0.85,
+    "Attack Precision":0.769,
+    "Attack Recall":1.0,
+    "Attack ROC-AUC":0.917,
+    "Attack TPR @ 1% FPR":0.105
+  },
+  {
+    "Defense":"Top-k (k=3)",
+    "Testing Accuracy":0.648,
+    "Attack Total Accuracy":0.814,
+    "Attack Precision":0.729,
+    "Attack Recall":1.0,
+    "Attack ROC-AUC":0.904,
+    "Attack TPR @ 1% FPR":0.121
+  },
+  {
+    "Defense":"Top-k (k=1)",
+    "Testing Accuracy":0.648,
+    "Attack Total Accuracy":0.675,
+    "Attack Precision":0.606,
+    "Attack Recall":1.0,
+    "Attack ROC-AUC":0.683,
+    "Attack TPR @ 1% FPR":0.013
+  },
+  {
+    "Defense":"Top-1 Label Only",
+    "Testing Accuracy":0.648,
+    "Attack Total Accuracy":0.675,
+    "Attack Precision":0.606,
+    "Attack Recall":1.0,
+    "Attack ROC-AUC":0.683,
+    "Attack TPR @ 1% FPR":0.013
+  },
+  {
+    "Defense":"Rounding (d=3)",
+    "Testing Accuracy":0.648,
+    "Attack Total Accuracy":0.849,
+    "Attack Precision":0.769,
+    "Attack Recall":1.0,
+    "Attack ROC-AUC":0.917,
+    "Attack TPR @ 1% FPR":0.106
+  },
+  {
+    "Defense":"Rounding (d=1)",
+    "Testing Accuracy":0.648,
+    "Attack Total Accuracy":0.823,
+    "Attack Precision":0.739,
+    "Attack Recall":0.999,
+    "Attack ROC-AUC":0.899,
+    "Attack TPR @ 1% FPR":0.1
+  },
+  {
+    "Defense":"Temperature (t=5)",
+    "Testing Accuracy":0.648,
+    "Attack Total Accuracy":0.5,
+    "Attack Precision":0.0,
+    "Attack Recall":0.0,
+    "Attack ROC-AUC":0.518,
+    "Attack TPR @ 1% FPR":0.018
+  },
+  {
+    "Defense":"Temperature (t=20)",
+    "Testing Accuracy":0.648,
+    "Attack Total Accuracy":0.5,
+    "Attack Precision":0.0,
+    "Attack Recall":0.0,
+    "Attack ROC-AUC":0.496,
+    "Attack TPR @ 1% FPR":0.018
+  },
+  {
+    "Defense":"L2 (lambda=1e-4)",
+    "Testing Accuracy":0.648,
+    "Attack Total Accuracy":0.852,
+    "Attack Precision":0.772,
+    "Attack Recall":0.998,
+    "Attack ROC-AUC":0.914,
+    "Attack TPR @ 1% FPR":0.077
+  },
+  {
+    "Defense":"L2 (lambda=1e-3)",
+    "Testing Accuracy":0.678,
+    "Attack Total Accuracy":0.861,
+    "Attack Precision":0.811,
+    "Attack Recall":0.94,
+    "Attack ROC-AUC":0.907,
+    "Attack TPR @ 1% FPR":0.051
+  },
+  {
+    "Defense":"L2 (lambda=1e-2)",
+    "Testing Accuracy":0.665,
+    "Attack Total Accuracy":0.502,
+    "Attack Precision":0.633,
+    "Attack Recall":0.009,
+    "Attack ROC-AUC":0.592,
+    "Attack TPR @ 1% FPR":0.019
+  },
+  {
+    "Defense":"Dropout (p=0.5)",
+    "Testing Accuracy":0.647,
+    "Attack Total Accuracy":0.84,
+    "Attack Precision":0.774,
+    "Attack Recall":0.96,
+    "Attack ROC-AUC":0.888,
+    "Attack TPR @ 1% FPR":0.086
+  },
+  {
+    "Defense":"Early Stopping",
+    "Testing Accuracy":0.668,
+    "Attack Total Accuracy":0.847,
+    "Attack Precision":0.77,
+    "Attack Recall":0.99,
+    "Attack ROC-AUC":0.903,
+    "Attack TPR @ 1% FPR":0.091
+  },
+  {
+    "Defense":"DP-SGD (eps=10.0)",
+    "Testing Accuracy":0.221,
+    "Attack Total Accuracy":0.5,
+    "Attack Precision":0.0,
+    "Attack Recall":0.0,
+    "Attack ROC-AUC":0.497,
+    "Attack TPR @ 1% FPR":0.016
+  },
+  {
+    "Defense":"DP-SGD (eps=5.0)",
+    "Testing Accuracy":0.166,
+    "Attack Total Accuracy":0.5,
+    "Attack Precision":0.0,
+    "Attack Recall":0.0,
+    "Attack ROC-AUC":0.496,
+    "Attack TPR @ 1% FPR":0.015
+  },
+  {
+    "Defense":"DP-SGD (eps=1.0)",
+    "Testing Accuracy":0.043,
+    "Attack Total Accuracy":0.5,
+    "Attack Precision":0.0,
+    "Attack Recall":0.0,
+    "Attack ROC-AUC":0.495,
+    "Attack TPR @ 1% FPR":0.017
+  }
+]

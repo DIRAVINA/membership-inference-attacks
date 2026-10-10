@@ -1,0 +1,52 @@
+[
+  {
+    "num_classes": 2,
+    "target_train_acc": 1.0,
+    "target_test_acc": 1.0,
+    "generalization_gap": 0.0,
+    "attack_precision": 0.5243619489559165,
+    "attack_recall": 0.3843537414965986,
+    "attack_accuracy": 0.5178571428571429,
+    "attack_roc_auc": 0.5085525706881392
+  },
+  {
+    "num_classes": 10,
+    "target_train_acc": 1.0,
+    "target_test_acc": 0.914,
+    "generalization_gap": 0.08599999999999997,
+    "attack_precision": 0.6007223113964687,
+    "attack_recall": 0.998,
+    "attack_accuracy": 0.6673333333333333,
+    "attack_roc_auc": 0.682952
+  },
+  {
+    "num_classes": 20,
+    "target_train_acc": 1.0,
+    "target_test_acc": 0.8373333333333334,
+    "generalization_gap": 0.16266666666666663,
+    "attack_precision": 0.6433476394849785,
+    "attack_recall": 0.9993333333333333,
+    "attack_accuracy": 0.7226666666666667,
+    "attack_roc_auc": 0.7796168888888889
+  },
+  {
+    "num_classes": 50,
+    "target_train_acc": 1.0,
+    "target_test_acc": 0.7086666666666667,
+    "generalization_gap": 0.29133333333333333,
+    "attack_precision": 0.6938202247191011,
+    "attack_recall": 0.988,
+    "attack_accuracy": 0.776,
+    "attack_roc_auc": 0.8698737777777779
+  },
+  {
+    "num_classes": 100,
+    "target_train_acc": 1.0,
+    "target_test_acc": 0.5933333333333334,
+    "generalization_gap": 0.4066666666666666,
+    "attack_precision": 0.7336309523809523,
+    "attack_recall": 0.986,
+    "attack_accuracy": 0.814,
+    "attack_roc_auc": 0.8940417777777778
+  }
+]
