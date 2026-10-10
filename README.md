@@ -104,6 +104,10 @@ Launch the interactive web UI:
 ```bash
 streamlit run app.py
 ```
+or
+```bash
+python -m streamlit run app.py
+```
 Open your browser at `http://localhost:8501`.
 
 ### 4. Run Test Suite
